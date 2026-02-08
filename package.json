@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/leojmelsrub/burslem-family/issues"
   },
-  "homepage": "https://github.com/leojmelsrub/burslem-family#readme"
+  "homepage": "https://github.com/leojmelsrub/burslem-family#readme",
+  "devDependencies": {
+    "csso-cli": "^4.0.2",
+    "eslint": "^10.0.0",
+    "html-minifier-terser": "^7.2.0",
+    "html-validate": "^10.7.0",
+    "stylelint": "^17.1.1",
+    "stylelint-config-standard": "^40.0.0",
+    "terser": "^5.46.0"
+  }
 }
