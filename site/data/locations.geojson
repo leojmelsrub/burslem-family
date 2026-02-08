@@ -1,0 +1,357 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2278,
+          53.0109
+        ]
+      },
+      "properties": {
+        "person": "William Burslem MP",
+        "place": "Newcastle-under-Lyme, Staffordshire",
+        "role": "career",
+        "url": "/posts/william-burslem-mp.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1729,
+          53.0246
+        ]
+      },
+      "properties": {
+        "person": "William Burslem MP",
+        "place": "Hanley, Staffordshire",
+        "role": "birth",
+        "url": "/posts/william-burslem-mp.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.466,
+          52.728
+        ]
+      },
+      "properties": {
+        "person": "Captain Francis Burslem RN",
+        "place": "Packington, Leicestershire",
+        "role": "birth",
+        "url": "/posts/captain-francis-burslem-rn.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.84562,
+          51.95167
+        ]
+      },
+      "properties": {
+        "person": "Captain Francis Burslem RN",
+        "place": "Youghal, County Cork",
+        "role": "death",
+        "url": "/posts/captain-francis-burslem-rn.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      },
+      "properties": {
+        "person": "Captain George James Burslem",
+        "place": "Calcutta (Kolkata), India",
+        "role": "career",
+        "url": "/posts/captain-george-james-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6238,
+          52.6653
+        ]
+      },
+      "properties": {
+        "person": "Captain George James Burslem",
+        "place": "Limerick, Ireland",
+        "role": "death",
+        "url": "/posts/captain-george-james-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.08722,
+          50.80583
+        ]
+      },
+      "properties": {
+        "person": "Dr. Willoughby Marshall Burslem",
+        "place": "Portsmouth, Hampshire",
+        "role": "birth",
+        "url": "/posts/dr-willoughby-marshall-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.88,
+          50.72
+        ]
+      },
+      "properties": {
+        "person": "Dr. Willoughby Marshall Burslem",
+        "place": "Bournemouth, Dorset",
+        "role": "career",
+        "url": "/posts/dr-willoughby-marshall-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.07,
+          50.81
+        ]
+      },
+      "properties": {
+        "person": "Godolphin Finney Burslem",
+        "place": "Portsea, Hampshire",
+        "role": "birth",
+        "url": "/posts/godolphin-finney-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0061,
+          40.7128
+        ]
+      },
+      "properties": {
+        "person": "Godolphin Finney Burslem",
+        "place": "New York City, New York",
+        "role": "career",
+        "url": "/posts/godolphin-finney-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6147,
+          50.7264
+        ]
+      },
+      "properties": {
+        "person": "John Godolphin Burslem",
+        "place": "Boulogne-sur-Mer, France",
+        "role": "birth",
+        "url": "/posts/john-godolphin-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.667,
+          -26.867
+        ]
+      },
+      "properties": {
+        "person": "John Godolphin Burslem",
+        "place": "Klerksdorp, South Africa",
+        "role": "death",
+        "url": "/posts/john-godolphin-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      },
+      "properties": {
+        "person": "Major Rollo Gillespie Burslem",
+        "place": "Calcutta (Kolkata), India",
+        "role": "career",
+        "url": "/posts/major-rollo-gillespie-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6095,
+          51.4791
+        ]
+      },
+      "properties": {
+        "person": "Major Rollo Gillespie Burslem",
+        "place": "Windsor, Berkshire",
+        "role": "later-life",
+        "url": "/posts/major-rollo-gillespie-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.402,
+          52.751
+        ]
+      },
+      "properties": {
+        "person": "Phillip James Burslem",
+        "place": "Coleorton, Leicestershire",
+        "role": "birth",
+        "url": "/posts/phillip-james-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.14222,
+          50.37139
+        ]
+      },
+      "properties": {
+        "person": "Phillip James Burslem",
+        "place": "Plymouth, Devon",
+        "role": "death",
+        "url": "/posts/phillip-james-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2278,
+          53.0109
+        ]
+      },
+      "properties": {
+        "person": "Reverend Daniel Burslem, M.A.",
+        "place": "Newcastle-under-Lyme, Staffordshire",
+        "role": "birth",
+        "url": "/posts/reverend-daniel-burslem-ma.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.805,
+          52.683
+        ]
+      },
+      "properties": {
+        "person": "Reverend Daniel Burslem, M.A.",
+        "place": "Great Fransham, Norfolk",
+        "role": "rector",
+        "url": "/posts/reverend-daniel-burslem-ma.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.25596,
+          51.7522
+        ]
+      },
+      "properties": {
+        "person": "Reverend Samuel Burslem, M.A.",
+        "place": "Oxford, Oxfordshire",
+        "role": "education",
+        "url": "/posts/reverend-samuel-burslem-ma.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4848,
+          52.9044
+        ]
+      },
+      "properties": {
+        "person": "Reverend Samuel Burslem, M.A.",
+        "place": "Market Drayton, Shropshire",
+        "role": "vicar",
+        "url": "/posts/reverend-samuel-burslem-ma.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.07,
+          50.81
+        ]
+      },
+      "properties": {
+        "person": "Rollo Burslem",
+        "place": "Portsea, Hampshire",
+        "role": "birth",
+        "url": "/posts/rollo-burslem.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9685,
+          51.445
+        ]
+      },
+      "properties": {
+        "person": "Rollo Burslem",
+        "place": "Reading, Berkshire",
+        "role": "death",
+        "url": "/posts/rollo-burslem.html"
+      }
+    }
+  ]
+}
