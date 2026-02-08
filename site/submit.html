@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit a Story</title>
+  <link rel="stylesheet" href="/assets/style.css?v=22">
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcHN2QsAAAAAKQsbQTLfThLvu3SBYWYTsR7bpdE"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="home-link" href="/index.html">Home</a>
+      <div class="brand">Burslem Family History</div>
+      <nav class="nav-links"><a class="nav-button" href="/submit.html">Submit</a></nav>
+      <button class="burger" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="site-menu"><span></span></button>
+    </div>
+  </header>
+  <div class="menu" id="site-menu" data-menu>
+    <div class="menu-inner"><a href="/submit.html">Submit</a></div>
+  </div>
+
+  <div class="site-shell">
+    <main>
+      <section class="hero">
+        <h1>Submit a Story</h1>
+        <p>Share research, photos, or corrections with the Burslem Family History project.</p>
+      </section>
+      <div class="content">
+        <form class="submit-form" method="post" action="https://formspree.io/f/xbdajqel" >
+          <input type="hidden" name="_subject" value="New Burslem Family History submission">
+          <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+          <label class="honeypot">Leave this field empty
+            <input type="text" name="_gotcha" autocomplete="off">
+          </label>
+          <label>First name
+            <input name="first_name" type="text" autocomplete="given-name" required>
+          </label>
+          <label>Last name
+            <input name="last_name" type="text" autocomplete="family-name" required>
+          </label>
+          <label>Email address
+            <input name="email" type="email" autocomplete="email" required>
+          </label>
+          <label>Subject
+            <input name="subject" type="text" required>
+          </label>
+          <label>Message
+            <textarea name="message" rows="8" required></textarea>
+          </label>
+          <button class="primary-button" type="submit">Send submission</button>
+          <p class="form-note">This form sends your submission securely via Formspree.</p>
+        </form>
+      </div>
+    </main>
+  </div>
+  <footer class="footer">Made with care with AI in Portland, USA.</footer>
+  <script src="/assets/app.js?v=22"></script>
+  <script>
+    (function() {
+      var form = document.querySelector(".submit-form");
+      if (!form || !window.grecaptcha) return;
+      form.addEventListener("submit", function(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute("6LcHN2QsAAAAAKQsbQTLfThLvu3SBYWYTsR7bpdE", {action: "submit"}).then(function(token) {
+            var input = document.getElementById("g-recaptcha-response");
+            if (input) input.value = token;
+            form.submit();
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
