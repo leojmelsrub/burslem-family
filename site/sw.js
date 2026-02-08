@@ -1,10 +1,10 @@
-const CACHE_NAME = 'ss-site-v108';
+const CACHE_NAME = 'ss-site-v119';
 const CORE_ASSETS = [
   '/',
   '/index.html',
   '/submit.html',
-  '/assets/style.css?v=108',
-  '/assets/app.js?v=108',
+  '/assets/style.css?v=119',
+  '/assets/app.js?v=119',
   '/images/logo.png.webp',
   '/images/crest.png',
   '/images/gb.svg',
@@ -31,6 +31,7 @@ self.addEventListener('fetch', (event) => {
   const req = event.request;
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;
+  if (req.method !== 'GET') return;
 
   if (req.mode === 'navigate') {
     event.respondWith(
