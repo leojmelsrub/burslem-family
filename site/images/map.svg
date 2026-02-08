@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Map of key Burslem locations">
+  <rect width="800" height="520" fill="#f7f3ea"/>
+  <g fill="#e7ddcf" stroke="#cdbfae" stroke-width="2">
+    <path d="M90,160 C160,60 300,50 360,140 C430,240 560,210 640,280 C690,320 700,390 640,430 C560,490 410,470 330,420 C250,370 140,300 90,160 Z"/>
+  </g>
+  <g fill="#0f3b2e" stroke="#f7f3ea" stroke-width="3">
+    <circle cx="370" cy="230" r="10"/>
+    <circle cx="310" cy="180" r="10"/>
+    <circle cx="450" cy="290" r="10"/>
+    <circle cx="520" cy="250" r="10"/>
+  </g>
+  <g fill="#1b1b19" font-family="Iowan Old Style, Garamond, serif" font-size="18" letter-spacing="0.02em">
+    <text x="385" y="220">Burslem</text>
+    <text x="270" y="170">Newcastle</text>
+    <text x="470" y="280">Hanley</text>
+    <text x="545" y="240">Shelton</text>
+  </g>
+</svg>
