@@ -1,10 +1,10 @@
-const CACHE_NAME = 'ss-site-v119';
+const CACHE_NAME = 'ss-site-v125';
 const CORE_ASSETS = [
   '/',
   '/index.html',
   '/submit.html',
-  '/assets/style.css?v=119',
-  '/assets/app.js?v=119',
+  '/assets/style.css?v=125',
+  '/assets/app.js?v=125',
   '/images/logo.png.webp',
   '/images/crest.png',
   '/images/gb.svg',
@@ -36,10 +36,12 @@ self.addEventListener('fetch', (event) => {
   if (req.mode === 'navigate') {
     event.respondWith(
       fetch(req).then((res) => {
-        const resClone = res.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+        if (res && res.ok) {
+          const resClone = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, resClone));
+        }
         return res;
-      }).catch(() => caches.match(req).then((res) => res || caches.match('/index.html')))
+      }).catch(() => caches.match(req))
     );
     return;
   }
