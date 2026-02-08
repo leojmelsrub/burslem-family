@@ -1,10 +1,10 @@
-const CACHE_NAME = 'ss-site-v128';
+const CACHE_NAME = 'ss-site-v130';
 const CORE_ASSETS = [
   '/',
   '/index.html',
   '/submit.html',
-  '/assets/style.css?v=128',
-  '/assets/app.js?v=128',
+  '/assets/style.css?v=130',
+  '/assets/app.js?v=130',
   '/images/logo.png.webp',
   '/images/crest.png',
   '/images/gb.svg',
