@@ -1,14 +1,15 @@
-const CACHE_NAME = 'ss-site-v131';
+const CACHE_NAME = 'ss-site-v135';
 const CORE_ASSETS = [
   '/',
   '/index.html',
   '/submit.html',
-  '/assets/style.css?v=131',
-  '/assets/app.js?v=131',
+  '/assets/style.css?v=135',
+  '/assets/app.js?v=135',
   '/images/logo.png.webp',
   '/images/crest.png',
   '/images/gb.svg',
-  '/images/map.svg'
+  '/images/map.svg',
+  '/images/search-icon.png'
 ];
 
 self.addEventListener('install', (event) => {
